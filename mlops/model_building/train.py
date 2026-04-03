@@ -148,8 +148,8 @@ with mlflow.start_run():
 
     # create_repo("churn-model", repo_type="model", private=False)
     api.upload_file(
-        path_or_fileobj="best_churn_model.joblib",
-        path_in_repo="best_churn_model.joblib",
+        path_or_fileobj="best_churn_model_04032026.joblib",
+        path_in_repo="best_churn_model_04032026.joblib",
         repo_id=repo_id,
         repo_type=repo_type,
     )
